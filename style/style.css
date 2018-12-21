@@ -1,0 +1,153 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #3b3c36;
+	background-image: url(../img/b.jpg);
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+   
+	
+}
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #121910;
+}
+
+.oBlock{
+	width: 75%;
+	height: 500px;
+	background-color: #585950;
+    opacity: 0.8;
+    position: relative;
+    top: 140px;
+    left: 450px;
+    font-family: 'Special Elite', cursive;
+}
+#tabs{
+	font-size:0.8em;
+    background-color: #585950;
+    font-family: 'Special Elite', cursive;
+    font-size: 14px;
+}
+p{
+	color:white;
+}
+.ui-tabs .ui-tabs-nav{
+	background-color: #585950;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+	background-color:#969992;
+}
+#tabs-1{
+	width: 60%;
+	height: 350px;
+}
+#tabs-2{
+	width: 60%;
+	height: 350px;
+}
+#tabs-3{
+	width: 60%;
+	height: 350px;
+}
+.pic1{
+	position: relative;
+	left: 940px;
+	bottom: 230px;
+}
+.pic2{
+	position: relative;
+	left: 940px;
+	bottom: 265px;
+}
+.pic3{
+	position: relative;
+	left: 940px;
+	bottom: 315px;
+}
+.reklama{
+	position: relative;
+	top: 250px;
+	left:10px;
+}
+
+h3{
+	color:white;
+}
+.but2{
+	background-image: url(../img/button.png);
+	background-size: 100% 100%;
+	margin-top: 80px;
+	font-family: 'Special Elite', cursive;
+}
+.txtbut{
+	color:white;
+}
+#panel {
+    position: fixed; 
+    top: 0px; 
+    left: 0; 
+    background: #121910; 
+    width: 30px; 
+    height: 40px; 
+    font: 14px 'Special Elite', cursive; 
+    color: #fff; 
+    text-align: center; 
+    padding: 5px; 
+
+    -webkit-transition-duration: 0.3s; 
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+ }
+
+
+#hidden_panel {
+    position: fixed; 
+    top: 0px; 
+    left: -220px; 
+    background: #121910; 
+    color: white; 
+    width: 200px; 
+    height: 280px; 
+    padding: 10px; 
+    text-align: left; 
+
+    -webkit-transition-duration: 0.3s; 
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    }
+#panel:hover {
+    left: 220px; 
+}
+#panel:hover #hidden_panel {
+    left: 0; 
+}
+.sim{
+position: relative;
+left: 0px;
+bottom: 17px;
+}
+.menu{
+	position: absolute;
+	top: 0px;
+}
+.but1{
+	background-image: url(../img/button.png);
+	background-size: 100% 100%;
+	color:white;
+	margin-left: 1660px;
+	margin-top: 10px;
+	 font: 14px 'Special Elite', cursive;
+}
+.but3{
+	background-image: url(../img/button.png);
+	background-size: 100% 100%;
+	color:white;
+	margin-left: 5px; 
+	 font: 14px 'Special Elite', cursive;
+	 margin-top: 10px;
+}
